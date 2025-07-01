@@ -1,23 +1,32 @@
-# MOB Supply
+<h1 align="center">🧿 MOB Supply CRM</h1>
+<p align="center">
+  Sistema completo de gestão para vendas e estoque de suprimentos de tatuagem.
+  <br/>
+  Controle de clientes, vendas, relatórios em PDF, estoque por marca/tipo e modo offline.
+</p>
 
-Sistema completo de gestão para vendas e estoque de suprimentos de tatuagem.  
-Permite controle de clientes, histórico de vendas, estoque por marca/tipo e sincronização local/offline.
+---
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Cadastro de clientes com CPF, nascimento, endereço, WhatsApp e e-mail
-- Controle de estoque por marcas (SKINK ink e VX Craft)
-- Registro de vendas com cálculo automático de subtotal, frete e desconto
-- Painel de controle com gráficos (vendas por mês, estoque, receita estimada)
-- Modo offline com sincronização para backend
-- Geração de relatórios em PDF
+- Cadastro completo de clientes (CPF, nascimento, endereço, WhatsApp, e-mail)
+- Controle de estoque por marcas (SKINK ink, VX Craft, etc.)
+- Registro de vendas com cálculo automático (subtotal, frete, desconto, forma de pagamento)
+- Painel com gráficos (vendas mensais, produtos, receita)
+- Geração de relatórios em *PDF*
+- Suporte a *modo offline* com dados salvos no navegador (localStorage)
+- Relatórios por cliente, mês, produto ou forma de pagamento
 
-## Tecnologias Utilizadas
+---
 
-- **Frontend:** React + Vite + TailwindCSS
-- **Gráficos:** Chart.js
-- **Backend:** Node.js + SQLite (modo local e portável)
-- **PDF Export:** html2pdf.js + jsPDF
+## 🚀 Tecnologias Utilizadas
+
+- *Frontend:* React + Vite + TailwindCSS + TypeScript  
+- *Gráficos:* Chart.js + Recharts  
+- *PDF Export:* html2pdf.js + jsPDF  
+- *Armazenamento local:* localStorage (com estrutura para sincronização futura)
+- *Backend (futuro):* Node.js + SQLite
+
 
 ## Como rodar localmente
 
