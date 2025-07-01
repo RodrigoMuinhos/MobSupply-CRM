@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide1.png" width="90%" alt="Banner MOBsupply" />
+  <img src="https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/GitHub/banner.png" alt="Banner MOBsupply" width="100%" />
 </p>
 
 ---
