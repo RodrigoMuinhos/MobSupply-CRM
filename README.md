@@ -1,57 +1,92 @@
-<h1 align="center">🧿 MOB Supply CRM</h1>
+<h1 align="center">📦 MOBsupply</h1>
 <p align="center">
-  Sistema completo de gestão para vendas e estoque de suprimentos de tatuagem.
-  <br/>
-  Controle de clientes, vendas, relatórios em PDF, estoque por marca/tipo e modo offline.
+  <strong>Sistema de Gestão de Vendas, Estoque e Distribuição</strong>  
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/seu-usuario/caminho-da-sua-imagem.gif" alt="MOBsupply Banner" width="100%" />
 </p>
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Sobre o Projeto
 
-- Cadastro completo de clientes (CPF, nascimento, endereço, WhatsApp, e-mail)
-- Controle de estoque por marcas (SKINK ink, VX Craft, etc.)
-- Registro de vendas com cálculo automático (subtotal, frete, desconto, forma de pagamento)
-- Painel com gráficos (vendas mensais, produtos, receita)
-- Geração de relatórios em *PDF*
-- Suporte a *modo offline* com dados salvos no navegador (localStorage)
-- Relatórios por cliente, mês, produto ou forma de pagamento
+O **MOBsupply** é uma plataforma completa para controle de vendas, clientes, estoque e distribuição de produtos — ideal para negócios locais, atacado ou revenda.
+
+> Desenvolvido com foco em **praticidade, visual moderno e funcionamento offline** com sincronização futura para backend.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 📸 Demonstração
 
-- *Frontend:* React + Vite + TailwindCSS + TypeScript  
-- *Gráficos:* Chart.js + Recharts  
-- *PDF Export:* html2pdf.js + jsPDF  
-- *Armazenamento local:* localStorage (com estrutura para sincronização futura)
-- *Backend (futuro):* Node.js + SQLite
+| Painel de Vendas | Tela de Relatórios | Visual do Estoque |
+|------------------|--------------------|--------------------|
+| ![img1](./caminho/IMG_798BAB1D-4024-4977-884A-CE233405CEA7.jpeg) | ![img2](./caminho/IMG_0ECC5705-6364-48C5-8969-747FB4D1A302.jpeg) | ![img3](./caminho/IMG_AA169830-7957-49AC-B2C9-3D414558D0D3.jpeg) |
 
+---
 
-## Como rodar localmente
+## 🧩 Funcionalidades
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/RodrigoMuinhos/mob-supply.git
-   ```
+- 🧾 Registro completo de vendas com recibo PDF
+- 🧍 Cadastro de clientes com CPF, contato e histórico
+- 📦 Controle de estoque por marca, tipo e código
+- 📊 Dashboard com gráficos e análises automáticas
+- 💰 Cálculo de comissões e metas por equipe
+- 📈 Relatórios de vendas por mês, cliente ou produto
+- 🛒 Módulo de atacado com markup, margem e simulação de revenda
+- 🧑‍🤝‍🧑 Gestão de distribuidores e controle de estoque individual
 
-2. Acesse a pasta:
-   ```bash
-   cd mob-supply
-   ```
+---
 
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
+## 🛠️ Tecnologias Utilizadas
 
-4. Rode o frontend:
-   ```bash
-   npm run dev
-   ```
+- **React + Vite**
+- **TypeScript**
+- **TailwindCSS**
+- **Chart.js**
+- **localStorage** (modo offline)
+- **jsPDF** (geração de recibos e relatórios)
 
-> Certifique-se de que o backend esteja rodando em `http://localhost:5000`
+---
 
-## Licença
+## 🔮 Roadmap
 
-Este projeto está sob a licença MIT.
+- [x] Dashboard com gráficos inteligentes
+- [x] Filtro de vendas por mês e cliente
+- [x] Simulador de Atacado e Varejo
+- [x] Cadastro de distribuidores e estoque por lote
+- [ ] Integração com backend PostgreSQL
+- [ ] Login de usuários
+- [ ] Exportação em Excel
+- [ ] Modo mobile otimizado
+
+---
+
+## 📦 Status do Projeto
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.  
+Veja o arquivo `LICENSE` para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+Feito com ❤️ por [Rodrigo Muinhos](https://www.linkedin.com/in/rodrigomuinhos/)  
+📬 Contato: rodrigomuinhos@gmail.com
+
+---
+
+## 🚀 Quer testar?
+
+> Clone o projeto localmente:
+```bash
+git clone https://github.com/seu-usuario/MobSupply
+cd MobSupply
+npm install
+npm run dev
