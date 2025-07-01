@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/seu-usuario/caminho-da-sua-imagem.gif" alt="MOBsupply Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide1.png" width="90%" alt="Banner MOBsupply" />
 </p>
 
 ---
@@ -13,7 +13,7 @@
 
 O **MOBsupply** é uma plataforma completa para controle de vendas, clientes, estoque e distribuição de produtos — ideal para negócios locais, atacado ou revenda.
 
-> Desenvolvido com foco em **praticidade, visual moderno e funcionamento offline** com sincronização futura para backend.
+> Desenvolvido com foco em **praticidade**, **visual moderno** e **funcionamento offline**, o sistema permite acompanhar todas as etapas do processo de vendas até a entrega do produto.
 
 ---
 
@@ -21,72 +21,62 @@ O **MOBsupply** é uma plataforma completa para controle de vendas, clientes, es
 
 | Painel de Vendas | Tela de Relatórios | Visual do Estoque |
 |------------------|--------------------|--------------------|
-| ![img1](./caminho/IMG_798BAB1D-4024-4977-884A-CE233405CEA7.jpeg) | ![img2](./caminho/IMG_0ECC5705-6364-48C5-8969-747FB4D1A302.jpeg) | ![img3](./caminho/IMG_AA169830-7957-49AC-B2C9-3D414558D0D3.jpeg) |
+| ![Slide2](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide2.png) | ![Slide3](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide3.png) | ![Slide5](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide5.png) |
 
 ---
 
 ## 🧩 Funcionalidades
 
 - 🧾 Registro completo de vendas com recibo PDF
-- 🧍 Cadastro de clientes com CPF, contato e histórico
+- 🧍 Cadastro de clientes com CPF, contato, histórico e filtros
 - 📦 Controle de estoque por marca, tipo e código
-- 📊 Dashboard com gráficos e análises automáticas
-- 💰 Cálculo de comissões e metas por equipe
-- 📈 Relatórios de vendas por mês, cliente ou produto
-- 🛒 Módulo de atacado com markup, margem e simulação de revenda
-- 🧑‍🤝‍🧑 Gestão de distribuidores e controle de estoque individual
+- 📊 Dashboard com gráficos interativos (Top clientes, modelos e receitas)
+- 💰 Cálculo de comissões e metas por membro da equipe
+- 🛍️ Módulo de atacado: markup, margem, retorno e proposta de revenda
+- 🚚 Gestão de distribuidores com fichas, lotes e estoque individual
+- 🧾 Exportação de relatórios mensais com gráficos e totalizações
+- 🕐 Suporte a datas manuais e recibos antigos
+- 🔒 Funciona localmente com `localStorage`, ideal para uso offline
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React + Vite**
-- **TypeScript**
-- **TailwindCSS**
-- **Chart.js**
-- **localStorage** (modo offline)
-- **jsPDF** (geração de recibos e relatórios)
+- ⚛️ **React + Vite**
+- 🟦 **TypeScript**
+- 🌬️ **TailwindCSS**
+- 📊 **Chart.js** (Gráficos interativos)
+- 💾 **localStorage** (modo offline)
+- 🧾 **jsPDF + html2pdf.js** (geração de relatórios e recibos)
+- 🗂 **Modularização por Features**
 
 ---
 
 ## 🔮 Roadmap
 
-- [x] Dashboard com gráficos inteligentes
-- [x] Filtro de vendas por mês e cliente
+- [x] Dashboard inteligente com KPIs e análises
 - [x] Simulador de Atacado e Varejo
-- [x] Cadastro de distribuidores e estoque por lote
-- [ ] Integração com backend PostgreSQL
-- [ ] Login de usuários
-- [ ] Exportação em Excel
-- [ ] Modo mobile otimizado
+- [x] Controle de distribuidores e fichas
+- [x] Geração de recibos e PDFs profissionais
+- [x] Visual temático com suporte a tema escuro e degradê
+- [ ] Login com segurança (futuro)
+- [ ] Sincronização com backend (PostgreSQL)
+- [ ] Integração com nuvem (Firebase ou Supabase)
+- [ ] Exportação em Excel (.xlsx)
 
 ---
 
 ## 📦 Status do Projeto
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/github/license/RodrigoMuinhos/MobSupply-CRM)
 
 ---
 
-## 📄 Licença
+## 🚀 Como Rodar Localmente
 
-Este projeto está sob a licença MIT.  
-Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-## 👨‍💻 Autor
-
-Feito com ❤️ por [Rodrigo Muinhos](https://www.linkedin.com/in/rodrigomuinhos/)  
-📬 Contato: rodrigomuinhos@gmail.com
-
----
-
-## 🚀 Quer testar?
-
-> Clone o projeto localmente:
 ```bash
-git clone https://github.com/seu-usuario/MobSupply
-cd MobSupply
+git clone https://github.com/RodrigoMuinhos/MobSupply-CRM
+cd MobSupply-CRM
 npm install
 npm run dev
