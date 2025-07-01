@@ -21,7 +21,7 @@ O **MOBsupply** é uma plataforma completa para controle de vendas, clientes, es
 
 | Painel de Vendas | Tela de Relatórios | Visual do Estoque |
 |------------------|--------------------|--------------------|
-| ![Slide2](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide2.png) | ![Slide3](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide3.png) | ![Slide5](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/github/slide5.png) |
+| ![Slide2](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/GitHub/Slide2.PNG) | ![Slide3](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/GitHub/Slide3.PNG) | ![Slide5](https://raw.githubusercontent.com/RodrigoMuinhos/MobSupply-CRM/main/public/GitHub/Slide5.PNG) |
 
 ---
 
